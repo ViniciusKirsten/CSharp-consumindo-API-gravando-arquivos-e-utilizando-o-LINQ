@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vinic\\source\\repos\\ScreenSound\\",
+  "WorkspaceRootPath": "C:\\Estudos\\CSharp-consumindo-API-gravando-arquivos-e-utilizando-o-LINQ\\ScreenSound\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{52F6CCC0-20AC-4F65-8CB0-E9B3D05AA919}|ScreenSound\\ScreenSound.csproj|c:\\users\\vinic\\source\\repos\\screensound\\screensound\\modelos\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52F6CCC0-20AC-4F65-8CB0-E9B3D05AA919}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\modelos\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52F6CCC0-20AC-4F65-8CB0-E9B3D05AA919}|ScreenSound\\ScreenSound.csproj|c:\\estudos\\csharp-consumindo-api-gravando-arquivos-e-utilizando-o-linq\\screensound\\screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52F6CCC0-20AC-4F65-8CB0-E9B3D05AA919}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52F6CCC0-20AC-4F65-8CB0-E9B3D05AA919}|ScreenSound\\ScreenSound.csproj|c:\\users\\vinic\\source\\repos\\screensound\\screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52F6CCC0-20AC-4F65-8CB0-E9B3D05AA919}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52F6CCC0-20AC-4F65-8CB0-E9B3D05AA919}|ScreenSound\\ScreenSound.csproj|c:\\estudos\\csharp-consumindo-api-gravando-arquivos-e-utilizando-o-linq\\screensound\\screensound\\modelos\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52F6CCC0-20AC-4F65-8CB0-E9B3D05AA919}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\modelos\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Musica.cs",
-              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\ScreenSound\\ScreenSound\\Modelos\\Musica.cs",
+              "DocumentMoniker": "C:\\Estudos\\CSharp-consumindo-API-gravando-arquivos-e-utilizando-o-LINQ\\ScreenSound\\ScreenSound\\Modelos\\Musica.cs",
               "RelativeDocumentMoniker": "ScreenSound\\Modelos\\Musica.cs",
-              "ToolTip": "C:\\Users\\vinic\\source\\repos\\ScreenSound\\ScreenSound\\Modelos\\Musica.cs",
+              "ToolTip": "C:\\Estudos\\CSharp-consumindo-API-gravando-arquivos-e-utilizando-o-LINQ\\ScreenSound\\ScreenSound\\Modelos\\Musica.cs",
               "RelativeToolTip": "ScreenSound\\Modelos\\Musica.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-26T00:18:26.329Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vinic\\source\\repos\\ScreenSound\\ScreenSound\\Program.cs",
+              "DocumentMoniker": "C:\\Estudos\\CSharp-consumindo-API-gravando-arquivos-e-utilizando-o-LINQ\\ScreenSound\\ScreenSound\\Program.cs",
               "RelativeDocumentMoniker": "ScreenSound\\Program.cs",
-              "ToolTip": "C:\\Users\\vinic\\source\\repos\\ScreenSound\\ScreenSound\\Program.cs",
+              "ToolTip": "C:\\Estudos\\CSharp-consumindo-API-gravando-arquivos-e-utilizando-o-LINQ\\ScreenSound\\ScreenSound\\Program.cs",
               "RelativeToolTip": "ScreenSound\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T23:50:22.973Z"
+              "WhenOpened": "2025-02-25T23:50:22.973Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -12,4 +12,4 @@ using (HttpClient client = new HttpClient())
 		Console.WriteLine($"Temos um problema: {ex.Message}");
 	}
 }
-//vamos utilizar esse pacote apenas dentro desse pacote
+//vamos utilizar esse pacote apenas dentro desse pacote por isso não colocamos ponto e virgula no final do using

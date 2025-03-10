@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ScreenSound
-build_property.ProjectDir = C:\Users\vinic\source\repos\ScreenSound\ScreenSound\
+build_property.ProjectDir = C:\Estudos\CSharp-consumindo-API-gravando-arquivos-e-utilizando-o-LINQ\ScreenSound\ScreenSound\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
