@@ -4,5 +4,12 @@
   "success": true,
   "projectFilePath": "C:\\Estudos\\CSharp-consumindo-API-gravando-arquivos-e-utilizando-o-LINQ\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache C:\\Estudos\\CSharp-consumindo-API-gravando-arquivos-e-utilizando-o-LINQ\\ScreenSound\\ScreenSound\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
