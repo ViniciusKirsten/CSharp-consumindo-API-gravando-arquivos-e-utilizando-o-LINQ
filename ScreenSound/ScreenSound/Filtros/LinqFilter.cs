@@ -26,5 +26,15 @@ internal class LinqFilter
             Console.WriteLine($"- {artista}");
         }
     }
+
+    //EXIBIR MUSICAS POR ARTISTAS
+    public static void FiltrarMusicasDeUmArtista(List<Musica> musicas, string nomeDoArtista)
+    {
+        var musicasDoArtista = musicas.Where(musica => musica.Artista!.Equals(nomeDoArtista)).ToList();
+        foreach(var musica in musicasDoArtista)
+        {
+            Console.WriteLine($"- {musica.Nome}");
+        }
+    }
 }
 

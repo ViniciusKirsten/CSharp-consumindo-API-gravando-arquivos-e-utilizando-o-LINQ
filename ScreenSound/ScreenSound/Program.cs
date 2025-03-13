@@ -18,13 +18,16 @@ using (HttpClient client = new HttpClient())
        //Exemplos que eu posso utilizar após fazer a desserialização
         Console.WriteLine(musicas.Count); //adicionando um count e manipulando esse dados
         
-        musicas[1998].ExibirDetalhesDaMusica(); //buscando a musica pelo indice
+        //musicas[1998].ExibirDetalhesDaMusica(); //buscando a musica pelo indice
         
         LinqFilter.FiltrarTodosOsGenerosMusicais(musicas);//Chamando a minha classe que criei para filtro
         
         LinqOrder.ExibirListaDeArtistasOrdenados(musicas);
 
-        LinqOrder.FiltrarArtistaPorGeneroMusical(musicas, "rock");
+        LinqFilter.FiltrarArtistaPorGeneroMusical(musicas, "rock");
+
+        LinqFilter.FiltrarMusicasDeUmArtista(musicas, "Michel Teló");
+
 
     }
     catch (Exception ex)
