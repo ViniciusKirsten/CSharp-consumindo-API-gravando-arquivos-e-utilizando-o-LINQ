@@ -11,24 +11,33 @@ using (HttpClient client = new HttpClient())
         string resposta = await client.GetStringAsync("https://guilhermeonrails.github.io/api-csharp-songs/songs.json");
         
         Console.WriteLine(resposta);
-
-		var musicas = JsonSerializer.Deserialize<List<Musica>>(resposta); //Estamos deserializando o objeto, sendo assim estamos
+        var musicas = JsonSerializer.Deserialize<List<Musica>>(resposta); //Estamos deserializando o objeto, sendo assim estamos
                                                                           //tirando o tipo que ele retorna no Json e colocando
                                                                           //para o tipo que precisamos
+        /*
+        ESTRUTURA UTILIZADA PARA TESTE UTILIZANDO O "LINQ"
+        
        //Exemplos que eu posso utilizar após fazer a desserialização
-        Console.WriteLine(musicas.Count); //adicionando um count e manipulando esse dados
-        
-        //musicas[1998].ExibirDetalhesDaMusica(); //buscando a musica pelo indice
-        
-        LinqFilter.FiltrarTodosOsGenerosMusicais(musicas);//Chamando a minha classe que criei para filtro
-        
-        LinqOrder.ExibirListaDeArtistasOrdenados(musicas);
-
-        LinqFilter.FiltrarArtistaPorGeneroMusical(musicas, "rock");
-
+        Console.WriteLine(musicas.Count); //adicionando um count e manipulando esse dados              
+        musicas[1998].ExibirDetalhesDaMusica(); //buscando a musica pelo indice                
+        LinqFilter.FiltrarTodosOsGenerosMusicais(musicas);//Chamando a minha classe que criei para filtro                
+        LinqOrder.ExibirListaDeArtistasOrdenados(musicas);        
+        LinqFilter.FiltrarArtistaPorGeneroMusical(musicas, "rock");  
         LinqFilter.FiltrarMusicasDeUmArtista(musicas, "Michel Teló");
+        
+         */
 
+        var musicaPreferidasDoDaniel = new MusicasPreferidas("Daniel");
 
+        musicaPreferidasDoDaniel.AdicionarMusicasFavoritas(musicas[1]);
+        musicaPreferidasDoDaniel.AdicionarMusicasFavoritas(musicas[377]);
+        musicaPreferidasDoDaniel.AdicionarMusicasFavoritas(musicas[4]);
+        musicaPreferidasDoDaniel.AdicionarMusicasFavoritas(musicas[6]);
+        musicaPreferidasDoDaniel.AdicionarMusicasFavoritas(musicas[1467]);
+
+        musicaPreferidasDoDaniel.ExibirMusicasFavoritas();
+
+        var
     }
     catch (Exception ex)
 	{

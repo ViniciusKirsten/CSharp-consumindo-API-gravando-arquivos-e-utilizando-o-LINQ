@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Estudos\\CSharp-consumindo-API-gravando-arquivos-e-utilizando-o-LINQ\\ScreenSound\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{52F6CCC0-20AC-4F65-8CB0-E9B3D05AA919}|ScreenSound\\ScreenSound.csproj|c:\\estudos\\csharp-consumindo-api-gravando-arquivos-e-utilizando-o-linq\\screensound\\screensound\\filtros\\linqfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52F6CCC0-20AC-4F65-8CB0-E9B3D05AA919}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\filtros\\linqfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52F6CCC0-20AC-4F65-8CB0-E9B3D05AA919}|ScreenSound\\ScreenSound.csproj|c:\\estudos\\csharp-consumindo-api-gravando-arquivos-e-utilizando-o-linq\\screensound\\screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52F6CCC0-20AC-4F65-8CB0-E9B3D05AA919}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52F6CCC0-20AC-4F65-8CB0-E9B3D05AA919}|ScreenSound\\ScreenSound.csproj|c:\\estudos\\csharp-consumindo-api-gravando-arquivos-e-utilizando-o-linq\\screensound\\screensound\\filtros\\linqorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52F6CCC0-20AC-4F65-8CB0-E9B3D05AA919}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\filtros\\linqorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52F6CCC0-20AC-4F65-8CB0-E9B3D05AA919}|ScreenSound\\ScreenSound.csproj|c:\\estudos\\csharp-consumindo-api-gravando-arquivos-e-utilizando-o-linq\\screensound\\screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52F6CCC0-20AC-4F65-8CB0-E9B3D05AA919}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52F6CCC0-20AC-4F65-8CB0-E9B3D05AA919}|ScreenSound\\ScreenSound.csproj|c:\\estudos\\csharp-consumindo-api-gravando-arquivos-e-utilizando-o-linq\\screensound\\screensound\\filtros\\linqfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52F6CCC0-20AC-4F65-8CB0-E9B3D05AA919}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\filtros\\linqfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F6CCC0-20AC-4F65-8CB0-E9B3D05AA919}|ScreenSound\\ScreenSound.csproj|c:\\estudos\\csharp-consumindo-api-gravando-arquivos-e-utilizando-o-linq\\screensound\\screensound\\modelos\\musicaspreferidas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52F6CCC0-20AC-4F65-8CB0-E9B3D05AA919}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\modelos\\musicaspreferidas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52F6CCC0-20AC-4F65-8CB0-E9B3D05AA919}|ScreenSound\\ScreenSound.csproj|c:\\estudos\\csharp-consumindo-api-gravando-arquivos-e-utilizando-o-linq\\screensound\\screensound\\modelos\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,8 +30,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MusicasPreferidas.cs",
+              "DocumentMoniker": "C:\\Estudos\\CSharp-consumindo-API-gravando-arquivos-e-utilizando-o-LINQ\\ScreenSound\\ScreenSound\\Modelos\\MusicasPreferidas.cs",
+              "RelativeDocumentMoniker": "ScreenSound\\Modelos\\MusicasPreferidas.cs",
+              "ToolTip": "C:\\Estudos\\CSharp-consumindo-API-gravando-arquivos-e-utilizando-o-LINQ\\ScreenSound\\ScreenSound\\Modelos\\MusicasPreferidas.cs",
+              "RelativeToolTip": "ScreenSound\\Modelos\\MusicasPreferidas.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T00:20:27.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LinqFilter.cs",
+              "DocumentMoniker": "C:\\Estudos\\CSharp-consumindo-API-gravando-arquivos-e-utilizando-o-LINQ\\ScreenSound\\ScreenSound\\Filtros\\LinqFilter.cs",
+              "RelativeDocumentMoniker": "ScreenSound\\Filtros\\LinqFilter.cs",
+              "ToolTip": "C:\\Estudos\\CSharp-consumindo-API-gravando-arquivos-e-utilizando-o-LINQ\\ScreenSound\\ScreenSound\\Filtros\\LinqFilter.cs",
+              "RelativeToolTip": "ScreenSound\\Filtros\\LinqFilter.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T15:05:14.26Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -36,45 +66,33 @@
               "RelativeDocumentMoniker": "ScreenSound\\Filtros\\LinqOrder.cs",
               "ToolTip": "C:\\Estudos\\CSharp-consumindo-API-gravando-arquivos-e-utilizando-o-LINQ\\ScreenSound\\ScreenSound\\Filtros\\LinqOrder.cs",
               "RelativeToolTip": "ScreenSound\\Filtros\\LinqOrder.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAkwAoAAACDAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T23:45:05.242Z",
+              "WhenOpened": "2025-03-12T15:05:03.307Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LinqFilter.cs",
-              "DocumentMoniker": "C:\\Estudos\\CSharp-consumindo-API-gravando-arquivos-e-utilizando-o-LINQ\\ScreenSound\\ScreenSound\\Filtros\\LinqFilter.cs",
-              "RelativeDocumentMoniker": "ScreenSound\\Filtros\\LinqFilter.cs",
-              "ToolTip": "C:\\Estudos\\CSharp-consumindo-API-gravando-arquivos-e-utilizando-o-LINQ\\ScreenSound\\ScreenSound\\Filtros\\LinqFilter.cs",
-              "RelativeToolTip": "ScreenSound\\Filtros\\LinqFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T23:16:27.088Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Musica.cs",
               "DocumentMoniker": "C:\\Estudos\\CSharp-consumindo-API-gravando-arquivos-e-utilizando-o-LINQ\\ScreenSound\\ScreenSound\\Modelos\\Musica.cs",
               "RelativeDocumentMoniker": "ScreenSound\\Modelos\\Musica.cs",
               "ToolTip": "C:\\Estudos\\CSharp-consumindo-API-gravando-arquivos-e-utilizando-o-LINQ\\ScreenSound\\ScreenSound\\Modelos\\Musica.cs",
               "RelativeToolTip": "ScreenSound\\Modelos\\Musica.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T00:18:26.329Z"
+              "WhenOpened": "2025-02-26T00:18:26.329Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Estudos\\CSharp-consumindo-API-gravando-arquivos-e-utilizando-o-LINQ\\ScreenSound\\ScreenSound\\Program.cs",
               "RelativeDocumentMoniker": "ScreenSound\\Program.cs",
               "ToolTip": "C:\\Estudos\\CSharp-consumindo-API-gravando-arquivos-e-utilizando-o-LINQ\\ScreenSound\\ScreenSound\\Program.cs",
               "RelativeToolTip": "ScreenSound\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABpAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T23:50:22.973Z",
               "EditorCaption": ""

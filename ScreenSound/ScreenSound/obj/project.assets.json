@@ -8,7 +8,8 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\vinicius.kirsten\\.nuget\\packages\\": {}
+    "C:\\Users\\vinic\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -16,11 +17,15 @@
       "projectUniqueName": "C:\\Estudos\\CSharp-consumindo-API-gravando-arquivos-e-utilizando-o-LINQ\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
       "projectName": "ScreenSound",
       "projectPath": "C:\\Estudos\\CSharp-consumindo-API-gravando-arquivos-e-utilizando-o-LINQ\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
-      "packagesPath": "C:\\Users\\vinicius.kirsten\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
       "outputPath": "C:\\Estudos\\CSharp-consumindo-API-gravando-arquivos-e-utilizando-o-LINQ\\ScreenSound\\ScreenSound\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\vinicius.kirsten\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -66,16 +72,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema ao ler o arquivo de cache C:\\Estudos\\CSharp-consumindo-API-gravando-arquivos-e-utilizando-o-LINQ\\ScreenSound\\ScreenSound\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
