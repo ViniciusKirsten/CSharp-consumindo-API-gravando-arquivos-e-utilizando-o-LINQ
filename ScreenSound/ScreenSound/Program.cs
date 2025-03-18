@@ -10,7 +10,7 @@ using (HttpClient client = new HttpClient())
         //await - para ele esperar a tarefa ser concluida
         string resposta = await client.GetStringAsync("https://guilhermeonrails.github.io/api-csharp-songs/songs.json");
         
-        Console.WriteLine(resposta);
+        //Console.WriteLine(resposta);
         var musicas = JsonSerializer.Deserialize<List<Musica>>(resposta); //Estamos deserializando o objeto, sendo assim estamos
                                                                           //tirando o tipo que ele retorna no Json e colocando
                                                                           //para o tipo que precisamos
@@ -27,17 +27,18 @@ using (HttpClient client = new HttpClient())
         
          */
 
-        var musicaPreferidasDoDaniel = new MusicasPreferidas("Daniel");
+        LinqFilter.FiltrarMusicaEmCsharp(musicas);
 
-        musicaPreferidasDoDaniel.AdicionarMusicasFavoritas(musicas[1]);
-        musicaPreferidasDoDaniel.AdicionarMusicasFavoritas(musicas[377]);
-        musicaPreferidasDoDaniel.AdicionarMusicasFavoritas(musicas[4]);
-        musicaPreferidasDoDaniel.AdicionarMusicasFavoritas(musicas[6]);
-        musicaPreferidasDoDaniel.AdicionarMusicasFavoritas(musicas[1467]);
+        var musicasPreferidasdoVinicius = new MusicasPreferidas("Vini");
+        musicasPreferidasdoVinicius.AdicionarMusicasFavoritas(musicas[1]);
+        musicasPreferidasdoVinicius.AdicionarMusicasFavoritas(musicas[2]);
+        musicasPreferidasdoVinicius.AdicionarMusicasFavoritas(musicas[3]);
+        musicasPreferidasdoVinicius.AdicionarMusicasFavoritas(musicas[4]);
+        musicasPreferidasdoVinicius.AdicionarMusicasFavoritas(musicas[5]);
 
-        musicaPreferidasDoDaniel.ExibirMusicasFavoritas();
+        musicasPreferidasdoVinicius.ExibirMusicasFavoritas();
+        musicasPreferidasdoVinicius.GerarArquivoJson();
 
-        var
     }
     catch (Exception ex)
 	{

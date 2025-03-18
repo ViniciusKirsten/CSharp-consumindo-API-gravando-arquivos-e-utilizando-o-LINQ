@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.Json; // para utilizar o Serialize
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +12,7 @@ namespace ScreenSound.Modelos
         public string? Nome {get; set;}
 
         //Não precisei adicionar o using, pois estão dentro do mesmo namespace
-        public List<Musica> ListaDeMusicasFavoritas { get; set; }
+        public List<Musica> ListaDeMusicasFavoritas { get; }
 
         public MusicasPreferidas(string nome){
             Nome = nome;
@@ -30,6 +31,21 @@ namespace ScreenSound.Modelos
             {
                 Console.WriteLine($"- {musica.Nome} de {musica.Artista}");
             }
+            Console.WriteLine("");
+        }
+
+        //FORMA PARA EXPORTAR OS MEUS DADOS PARA JSON
+        public void GerarArquivoJson()
+        {
+            string  json = JsonSerializer.Serialize(new //neste caso é um objeto anonimo
+            {
+                nome = Nome,
+                musicas = ListaDeMusicasFavoritas
+            });
+            string nomeDoArquivo = $"musicas-favoritas-{Nome}.json";
+            
+            File.WriteAllText(nomeDoArquivo, json); //para criar o Json com as informações acima
+            Console.WriteLine($"Arquivo {nomeDoArquivo} criado com sucesso! {Path.GetFullPath(nomeDoArquivo)}");
         }
     }
 }
